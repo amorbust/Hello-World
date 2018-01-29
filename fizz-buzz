@@ -1,0 +1,18 @@
+for (var i = 1; i < 100; i++) {
+  if (i % 3 == 0 && i % 4 ==0) {
+    output = "FizzBuzz";
+    console.log(output)
+  }
+  else if (i % 3 == 0) {
+    output = "Fizz";
+  	console.log(output)
+  }
+  else if (i % 4 == 0) {
+    output = "buzz";
+  	console.log(output)
+  }
+  else {
+    output = i;
+    console.log(output);
+  }
+}
