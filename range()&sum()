@@ -1,0 +1,23 @@
+function range(x,y,z) {
+  if (z == undefined && x > y) {z = -1;}
+  if (z == undefined) {z = 1;}
+  var result = [];
+  if (z < 0) {
+    for (var i = x; i >= y; i += z)
+      result.push(i);
+    return result;
+  } else {
+    for (var i = x; i <= y; i += z)
+      result.push(i);
+    return result;
+ }
+}
+  
+function sum(array) {
+  var result = 0;
+  for (var i = 0; i < array.length; i++)
+    result += array[i];
+  return result;
+ }
+
+console.log(sum(range(1,10)))
