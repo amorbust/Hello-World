@@ -1,0 +1,22 @@
+body {
+  font-family: courier;
+  background-color: linen;
+  color: dodgerblue;
+  text-shadow: 1px 1px 2px black;
+  font-size: 20px;
+}
+.number {
+  width: 40px;
+}
+.number:focus {
+  background-color: yellow;
+}
+#btn {
+  background-color: dodgerblue;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px grey;
+}
+#btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
